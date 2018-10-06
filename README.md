@@ -1,4 +1,4 @@
-![typed-on-badge](typed-on-alps-switches.jpg) ![built-by-badge](D:\Github\solid-state\built-by-hipsters.jpg) ![compatibility-badge](compatibility-club-pinguin.jpg)
+![typed-on-badge](typed-on-alps-switches.jpg) ![built-by-badge](built-by-hipsters.jpg) ![compatibility-badge](compatibility-club-pinguin.jpg)
 
 # Solid State
 
