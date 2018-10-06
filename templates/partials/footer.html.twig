@@ -1,21 +1,20 @@
 <section id="footer">
     <div class="inner">
-        <h2>{{ site.footer.title }}</h2>
-        {{ site.footer.content|markdown }}   
-        {{ simple_form(site.footer.simple_form) }}
-        <ul class="contact">
-            <li class="fa-home">
-                {{ site.footer.company }}   
-            </li>
-            <li class="fa-phone">{{ site.footer.phone }} </li>
-            <li class="fa-envelope"><a href="#">{{ site.footer.envelope }} </a></li>
-            <li class="fa-twitter"><a href="#">{{ site.footer.twitter }} </a></li>
-            <li class="fa-facebook"><a href="#">{{ site.footer.facebook }} </a></li>
-            <li class="fa-instagram"><a href="#">{{ site.footer.instagram }}</a></li>
-        </ul>
+
+        {% if site.about %}
+                {{ site.about }}
+        {% endif %}
         <ul class="copyright">
-            <li>{{ site.footer.copyright }}</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            {% if site.copyright %}
+                {{ site.copyright }}
+            {% endif %}
         </ul>
+
+        {% if site.badges %}
+            {% for badge in site.badges %}
+                <img class="image" src="{{ badge }}">
+            {% endfor %}
+        {% endif %}
+
     </div>
 </section>

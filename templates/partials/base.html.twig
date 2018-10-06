@@ -6,9 +6,13 @@
 -->
 <html>
     <head>
-        <title>Solid State by HTML5 UP</title>
+        <title>{{site.title}}</title>
+
+        {% include 'partials/metadata.html.twig' %}
+        
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
         
         {% block stylesheets %}
         {% if browser.getBrowser == 'msie' and browser.getVersion == 8 %}

@@ -2,7 +2,7 @@
 
 ![Screenshot](screenshot.jpg)
 
-This theme is a port of the [Solid State HTML Template](http://html5up.net/solid-state) developed by [HTML5UP](http://html5up.net/) and ported to [Grav](http://getgrav.org) by Giansimon Diblas.
+This theme is a port of the [Solid State HTML Template](http://html5up.net/solid-state) developed by [HTML5UP](http://html5up.net/) and ported to [Grav](http://getgrav.org) by Giansimon Diblas. This theme has then been further optimized and debugged by Bonno van der Basch. A working example can be seen on the website [Deze Gasten](http://dezegasten.nl)
 
 # Installation
 
@@ -26,7 +26,7 @@ You should now have all the theme files under
 
 # Updating
 
-As development for this theme continues, new versions may become available that add additional features and functionality, improve compatibility with newer Grav releases, and generally provide a better user experience. Updating this theme is easy, and can be done through Grav's GPM system, as well as manually.
+As development for this theme continues, new versions *may* become available that add additional features and functionality, improve compatibility with newer Grav releases, and generally provide a better user experience. Updating this theme is easy, and can be done through Grav's GPM system, as well as manually.
 
 ## GPM Update (_Preferred_)
 
@@ -58,7 +58,3 @@ If you want to set this theme as the default theme, you can do so by following t
 * Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in Terminal and typing `bin/grav clear-cache`.
 
 Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the **tessellate** folder.
-
-## Demo Contents
-
-You can find the folder `_demo` inside the theme directory, where you can find the example contents for your site. Just backup . if needed - and remove the site pages, then copy the pages from the `_demo` folder and you are done.
