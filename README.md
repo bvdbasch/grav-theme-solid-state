@@ -1,3 +1,5 @@
+![typed-on-badge](D:\Github\solid-state\typed on-alps switches-5593c9.svg) ![built-by-badge](D:\Github\solid-state\built by-hipsters-5593c9.svg) ![compatibility-badge](D:\Github\solid-state\compatibility-club pinguin-5593c9.svg)
+
 # Solid State
 
 ![Screenshot](screenshot.jpg)

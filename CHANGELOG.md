@@ -12,7 +12,7 @@
     * Added favicon to base.html.twig
     * Badges for badges sake
 3. [](#improved)
-    * Changed navigation menu behavior to only show visible r
+    * Changed navigation menu behavior to only show visible pages
 
 # v1.1.0
 ## 27/08/2016
